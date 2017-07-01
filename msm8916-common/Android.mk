@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter gprimelte gprimeltespr gprimeltexx gtelwifiue gtesqltespr,$(TARGET_DEVICE)),)
+ifneq ($(filter gprimelte gprimeltespr gprimeltexx gtelwifiue gtesqltespr j7ltespr j7ltechn,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libHevcSwDecoder
